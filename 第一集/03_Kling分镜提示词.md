@@ -26,7 +26,7 @@
 --no extra fingers, deformed face, melted hands, multiple heads, watermark, signature, garbled Chinese characters, blurry, low-res, oversaturated neon, plastic skin, hair color drift, tattoo design drift, age drift, outfit drift, NSFW exposure, exposed nipples, exposed genitalia, blood splatter, graphic violence, racist caricature.
 ```
 
-> **使用方式**：每次生成单镜时，先粘贴上面 `[全局视觉锁定]` 整段 → 再粘贴对应镜号下方的 7 段结构化块（[镜头编号] / [主体与动作] / [环境与氛围] / [镜头运动] / [音频描述] / [负面约束]）→ 提交 Kling 3.0。
+> **使用方式**：每次生成单镜时，先粘贴上面 `[全局视觉锁定]` 整段 → 再粘贴对应镜号下方的 6 段结构化块（[镜头编号] / [主体与动作] / [环境与氛围] / [镜头运动] / [负面约束]）→ 提交 Kling 3.0。
 
 ---
 
@@ -51,13 +51,9 @@ A wide aerial high-angle establishing shot of a North-China long-distance bus te
 [镜头运动]
 Camera：high-angle establishing, slow PUSH-IN forward, 5 seconds, steady.
 
-[音频描述]
-环境：嘈杂人潮 / 广播叫站 / 行李轮哒哒 / 远处汽车鸣笛 / 北风。BGM：低沉电子鼓铺底 5%。 声效：喇叭过载失真叫站；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S01-01b　MLS·售票口司机喊话
 **引用素材**：`[CHAR-DRIVER]` `[PROP-MEGAPHONE]` `[SCN-STATION-DAY]`
@@ -78,13 +74,9 @@ A 45-year-old Chinese long-distance bus driver in a dark navy quilted cotton coa
 [镜头运动]
 Camera：medium long shot, STATIC tripod, slight foreground-passenger walk-by parallax, 3 seconds.
 
-[音频描述]
-环境：嘈杂人潮 / 广播叫站 / 行李轮哒哒 / 远处汽车鸣笛 / 北风。BGM：低沉电子鼓铺底 5%。 声效：喇叭过载失真叫站；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S01-02a　MS·白离拖箱穿人群
 **引用素材**：`[CHAR-BL-FORMAL]` `[PROP-LUGGAGE]` `[SCN-STATION-DAY]`
@@ -105,13 +97,9 @@ A 26-year-old handsome Chinese man with peach-blossom almond eyes, side-parted b
 [镜头运动]
 Camera：medium shot, smooth TRACK behind him at walking pace, slight over-shoulder, 4 seconds.
 
-[音频描述]
-环境：嘈杂人潮 / 广播叫站 / 行李轮哒哒 / 远处汽车鸣笛 / 北风。BGM：低沉电子鼓铺底 5%。 声效：行李箱万向轮哒哒；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S01-02b　CU·行李箱滚轮压地砖
 **引用素材**：`[PROP-LUGGAGE]` `[SCN-STATION-DAY]`
@@ -132,13 +120,9 @@ Extreme low-angle close-up of four spinner wheels of a brushed silver aluminum l
 [镜头运动]
 Camera：ground-level close-up, STATIC, slight forward motion of wheels, 2 seconds.
 
-[音频描述]
-环境：嘈杂人潮 / 广播叫站 / 行李轮哒哒 / 远处汽车鸣笛 / 北风。BGM：低沉电子鼓铺底 5%。 声效：行李箱万向轮哒哒；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：画面元素漂移 / 与首帧不符
 ```
-
 
 ### S01-03　MLS·白离登车回望天空
 **引用素材**：`[CHAR-BL-FORMAL]` `[SCN-BUS-EXT-DAY]` `[PROP-LUGGAGE]`
@@ -159,13 +143,9 @@ The same 26-year-old executive man steps onto the metal step of a white Chinese 
 [镜头运动]
 Camera：medium long shot from front-side, slow DOLLY-IN, 4 seconds.
 
-[音频描述]
-环境：大巴怠速柴油低频 / 站台广播 / 行李箱滚轮压地。BGM：—。 声效：行李箱万向轮哒哒；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ---
 
@@ -190,13 +170,9 @@ Interior of a Chinese long-distance coach in daytime, double rows of dark-burgun
 [镜头运动]
 Camera：medium long shot from front of aisle, slow DOLLY-IN toward the back row, 5 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：画面元素漂移 / 与首帧不符
 ```
-
 
 ### S02-01b　MS·白离落座靠窗
 **引用素材**：`[CHAR-BL-FORMAL]` `[PROP-LUGGAGE]` `[SCN-BUS-INT-DAY]`
@@ -217,13 +193,9 @@ The same 26-year-old executive man lifts a silver luggage onto the overhead alum
 [镜头运动]
 Camera：medium shot at 3/4 front angle, smooth TRACK following his sit-down motion, 3 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。 声效：行李箱万向轮哒哒；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-02　CU·白离闭眼后仰
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-TIRED]` `[PROP-EARPHONE]`
@@ -244,13 +216,9 @@ Close-up of the same executive man's face, expression weary with heavy half-clos
 [镜头运动]
 Camera：close-up, side 45°, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：白离长长一口吐息；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-03a　MLS·三精神小妹挤上车
 **引用素材**：`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[SCN-BUS-INT-DAY]`
@@ -271,13 +239,9 @@ Three loud "spicy girls" squeezing onto the coach at the front door: a 22-year-o
 [镜头运动]
 Camera：medium long shot at door perspective, quick PUSH-IN with very subtle handheld micro-shake, 3 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-03b　CU·白离猛睁眼侧目
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-ANNOYED]`
@@ -298,13 +262,9 @@ Close-up of the executive man, eyes snapped open and sharply side-glancing towar
 [镜头运动]
 Camera：close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-04a　MS·三女沿过道走来
 **引用素材**：`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[SCN-BUS-INT-DAY]`
@@ -325,13 +285,9 @@ The three spicy girls walking down the aisle of the coach, the yellow-haired gir
 [镜头运动]
 Camera：medium shot tracking PAN with slight PUSH-IN from rear of coach, 4 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-04b　MS·白离 POV 三女扑面
 **引用素材**：`[CHAR-BL-FORMAL]` POV，`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[SCN-BUS-INT-DAY]`
@@ -352,13 +308,9 @@ First-person POV from the executive man's seat at the back row: the three spicy 
 [镜头运动]
 Camera：POV medium shot, STATIC with subtle natural breathing micro-shake, 3 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：鬼影手 / 自拍镜头反射 / POV 倒影出现拍摄者脸 / 换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-05a　MS·三人入坐最后排
 **引用素材**：`[CHAR-BL-FORMAL]` `[CHAR-XS]` `[CHAR-JX]` `[CHAR-TT]` `[SCN-BUS-INT-DAY]`
@@ -379,13 +331,9 @@ The back row of the coach now packed: from left to right - the executive man pre
 [镜头运动]
 Camera：medium shot front-on, STATIC, 4 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-05b　CU·拥挤大腿暗示
 **引用素材**：`[CHAR-BL-FORMAL]` `[CHAR-XS]` `[SCN-BUS-INT-DAY]`
@@ -406,13 +354,9 @@ Close-up TILT-DOWN of the gap between two seated passengers: a man's charcoal-su
 [镜头运动]
 Camera：close-up, TILT-DOWN, STATIC, 3 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S02-05c　MS·婷婷骂厂子佳欣附和
 **引用素材**：`[CHAR-TT]` `[EXP-ANGRY]` `[CHAR-JX]` `[EXP-ATTITUDE]` `[SCN-BUS-INT-DAY]`
@@ -433,13 +377,9 @@ The red-haired girl mid-rant with mouth wide open in fury, brows furrowed, finge
 [镜头运动]
 Camera：medium shot, STATIC, 4 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。 人声：婷婷怒骂（中响度）；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ---
 
@@ -464,13 +404,9 @@ Aerial side-tracking shot of a single white Chinese long-distance coach driving 
 [镜头运动]
 Camera：drone-style smooth side TRACK matching coach speed, 3 seconds.
 
-[音频描述]
-环境：风噪 swoosh / 远程引擎共鸣。BGM：弦乐持续音 (Cm) 入。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：画面元素漂移 / 与首帧不符
 ```
-
 
 ### S03-01b　CU·小双脸色发白晕车
 **引用素材**：`[CHAR-XS]` `[EXP-CARSICK]`
@@ -491,13 +427,9 @@ Close-up of the 19-year-old soft-faced girl with honey-yellow wavy hair and pink
 [镜头运动]
 Camera：close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：小双轻微反胃哼咽；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-02a　MCU·小双怯生生请求喝水
 **引用素材**：`[CHAR-XS]` `[EXP-PLEADING]` `[CHAR-BL-FORMAL]`
@@ -518,13 +450,9 @@ The yellow-haired girl timidly leaning toward the executive man, fingertips ligh
 [镜头运动]
 Camera：medium close-up at side 45°, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：小双怯生生"大叔，能给口水喝吗？"；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-02b　ECU·白离嘴角抽动
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-TWITCH]`
@@ -545,13 +473,9 @@ Extreme close-up of the executive man's mouth area, a subtle single twitch at th
 [镜头运动]
 Camera：extreme close-up, STATIC, 1.5 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-02c　CU·水瓶手边
 **引用素材**：`[PROP-WATER-USED]`
@@ -572,13 +496,9 @@ Close-up low-angle top-down of a 550ml clear mineral water bottle with blue-whit
 [镜头运动]
 Camera：close-up top-down, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：画面元素漂移 / 与首帧不符
 ```
-
 
 ### S03-03a　MCU·白离冷淡拒绝
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-COLD]`
@@ -599,13 +519,9 @@ The executive man's face in medium close-up, expression cold and detached, lips 
 [镜头运动]
 Camera：medium close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-03b　MS·小双拿水瓶
 **引用素材**：`[CHAR-XS]` `[EXP-BRIGHT]` `[PROP-WATER-USED]`
@@ -626,13 +542,9 @@ The yellow-haired girl's eyes lighting up with hope and faint smile, hand reachi
 [镜头运动]
 Camera：medium shot 3/4 front angle, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-03c　CU·小双仰头喝水
 **引用素材**：`[CHAR-XS]` `[EXP-DRINK]` `[PROP-WATER-USED]`
@@ -653,13 +565,9 @@ Close-up side profile of the yellow-haired girl tilting her head back, eyes clos
 [镜头运动]
 Camera：close-up side, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 声效：咕嘟咕嘟连续吞咽 ×3；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-03d　CU·水瓶口唇印特写
 **引用素材**：`[PROP-WATER-LIPMARK]`
@@ -680,13 +588,9 @@ Close-up of the same mineral water bottle, water level now reduced to about 30%,
 [镜头运动]
 Camera：close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：画面元素漂移 / 与首帧不符
 ```
-
 
 ### S03-04a　MCU·白离嫌弃送水
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-DISGUST]`
@@ -707,13 +611,9 @@ Medium close-up of the executive man, faint disgusted expression with lips sligh
 [镜头运动]
 Camera：medium close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-04b　CU·小双低头攥瓶子
 **引用素材**：`[CHAR-XS]` `[EXP-SHY-THANKFUL]` `[PROP-WATER-LIPMARK]`
@@ -734,13 +634,9 @@ Close-up of the yellow-haired girl with head lowered, faint blush on her cheeks,
 [镜头运动]
 Camera：close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S03-04c　ECU·白离瞳孔系统绑定
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-SHOCK]` `[FX-SYS-BIND]`
@@ -761,13 +657,9 @@ Extreme close-up of one eye of the executive man, dark-brown iris filling the fr
 [镜头运动]
 Camera：extreme close-up, STATIC with slight ZOOM-IN, 4 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：倒吸一口冷气；系统音：cyan 合成 ding-up + 数字打字声 + 低频 sub-bass 一击；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：瞳孔变形 / 双重瞳孔 / 塑料眼球 / 虹膜反光过爆 / 换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ---
 
@@ -792,13 +684,9 @@ The executive man sitting in the coach back row, eyes fully wide and lips slight
 [镜头运动]
 Camera：medium shot front-on, STATIC, 4 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：倒吸一口冷气；系统音：cyan 合成 ding-up + 数字打字声 + 低频 sub-bass 一击；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：UI 文字乱码 / UI 元素崩坏 / 蓝色光晕过曝 / panel 双重叠影 / 换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S04-01b　CU·手指穿过面板
 **引用素材**：`[CHAR-BL-FORMAL]` `[PROP-PANEL-MAIN]`
@@ -819,13 +707,9 @@ Close-up of the executive man's hand reaching forward, his index finger passing 
 [镜头运动]
 Camera：close-up side, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 系统音：cyan 合成 ding-up + 数字打字声 + 低频 sub-bass 一击；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：UI 文字乱码 / UI 元素崩坏 / 蓝色光晕过曝 / panel 双重叠影 / 换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S04-01c　MCU·乘客毫无反应
 **引用素材**：`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[SCN-BUS-INT-DAY]`
@@ -846,13 +730,9 @@ Reverse-angle medium close-up of the three spicy girls and nearby passengers in 
 [镜头运动]
 Camera：medium close-up reverse angle, STATIC, 3 seconds.
 
-[音频描述]
-环境：发动机平稳低频 / 偶发咳嗽 / 邻座小声闲聊 / 座椅吱呀。BGM：—（叙事铺垫）。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S04-02a　CU·系统功能介绍面板
 **引用素材**：`[PROP-PANEL-FUNC]`
@@ -873,13 +753,9 @@ Close-up of a semi-transparent cyan-blue holographic UI panel hovering against a
 [镜头运动]
 Camera：close-up, STATIC with very slight ZOOM-IN, 4 seconds.
 
-[音频描述]
-环境：参考相邻场景。 系统音：cyan 合成 ding-up + 数字打字声 + 低频 sub-bass 一击；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：UI 文字乱码 / UI 元素崩坏 / 蓝色光晕过曝 / panel 双重叠影
 ```
-
 
 ### S04-02b　MS·白离 POV 扫描三女
 **引用素材**：`[CHAR-BL-FORMAL]` POV，`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[PROP-PANEL-RADAR]`
@@ -900,13 +776,9 @@ First-person POV from the executive man: gaze sweeping across the three spicy gi
 [镜头运动]
 Camera：POV medium shot, smooth PAN left to right, 5 seconds.
 
-[音频描述]
-环境：参考相邻场景。 系统音：cyan 合成 ding-up + 数字打字声 + 低频 sub-bass 一击；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：UI 文字乱码 / UI 元素崩坏 / 蓝色光晕过曝 / panel 双重叠影 / 鬼影手 / 自拍镜头反射 / POV 倒影出现拍摄者脸 / 换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S04-02c　ECU·白离贪婪眼神
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-GREEDY]`
@@ -927,13 +799,9 @@ Extreme close-up of the executive man's eyes, blazing with fervent greedy excite
 [镜头运动]
 Camera：extreme close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ---
 
@@ -958,13 +826,9 @@ A wide long shot of a Chinese highway service area at night, large orange-red ne
 [镜头运动]
 Camera：long shot, slow DOLLY-IN toward the building, 4 seconds.
 
-[音频描述]
-环境：自动门 ding / 远处货车怠速 / 风噪 / 霓虹电流轻微哼鸣。BGM：—。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：画面元素漂移 / 与首帧不符
 ```
-
 
 ### S05-01b　MS·白离拎泡面出便利店
 **引用素材**：`[CHAR-BL-FORMAL]` `[PROP-INSTANT-NOODLE-CUP]` `[PROP-WATER-NEW]` `[SCN-REST-AREA-NIGHT]`
@@ -985,13 +849,9 @@ The executive man walking out of the automatic glass doors of a brightly-lit con
 [镜头运动]
 Camera：medium shot, smooth TRACK in front of him, 3 seconds.
 
-[音频描述]
-环境：自动门 ding / 远处货车怠速 / 风噪 / 霓虹电流轻微哼鸣。BGM：—。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-02a　MS·便利店内白离撕开泡面
 **引用素材**：`[CHAR-BL-FORMAL]` `[PROP-INSTANT-NOODLE-CUP]` `[SCN-REST-AREA-INT]`
@@ -1012,13 +872,9 @@ Inside the convenience store at a small standing eating counter, the executive m
 [镜头运动]
 Camera：medium shot 3/4 angle, STATIC, 3 seconds.
 
-[音频描述]
-环境：荧光灯电流哼 50Hz / 冰柜压缩机轰鸣 / 客人收银声 / 微波炉 ding。BGM：—。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-02b　MS·三女徘徊盯食物
 **引用素材**：`[CHAR-TT]` `[EXP-HUNGRY]` `[CHAR-JX]` `[EXP-HUNGRY]` `[CHAR-XS]` `[EXP-HUNGRY]` `[SCN-REST-AREA-INT]`
@@ -1039,13 +895,9 @@ The three spicy girls lingering in the convenience store aisle, gazes locked hun
 [镜头运动]
 Camera：medium shot, STATIC, 4 seconds.
 
-[音频描述]
-环境：荧光灯电流哼 50Hz / 冰柜压缩机轰鸣 / 客人收银声 / 微波炉 ding。BGM：—。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-03a　MCU·婷婷上前喊大哥
 **引用素材**：`[CHAR-TT]` `[EXP-AWKWARD]` `[SCN-REST-AREA-INT]`
@@ -1066,13 +918,9 @@ Medium close-up of the red-haired tattooed girl standing in front of the counter
 [镜头运动]
 Camera：medium close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：荧光灯电流哼 50Hz / 冰柜压缩机轰鸣 / 客人收银声 / 微波炉 ding。BGM：—。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-03b　MCU·白离拿手机扫码
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-CALM]` `[PROP-PHONE-WECHAT]`
@@ -1093,13 +941,9 @@ Medium close-up reverse angle of the executive man calmly pulling out a black sm
 [镜头运动]
 Camera：medium close-up reverse, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸 / 手机屏幕乱码 / 微信图标错位 / 中文字符崩坏
 ```
-
 
 ### S05-03c　MS·三女凑头商量
 **引用素材**：`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[SCN-REST-AREA-INT]`
@@ -1120,13 +964,9 @@ The three girls huddled in a small circle, heads close together, whispering and 
 [镜头运动]
 Camera：medium shot top-down slight angle, STATIC, 4 seconds.
 
-[音频描述]
-环境：荧光灯电流哼 50Hz / 冰柜压缩机轰鸣 / 客人收银声 / 微波炉 ding。BGM：—。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-03d　CU·婷婷伸一根手指
 **引用素材**：`[CHAR-TT]` `[EXP-CAREFUL]`
@@ -1147,13 +987,9 @@ Close-up of the red-haired girl carefully and timidly raising one single index f
 [镜头运动]
 Camera：close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-04a　ECU·点击转账
 **引用素材**：`[PROP-PHONE-TRANSFER]`
@@ -1174,13 +1010,9 @@ Extreme close-up of the smartphone screen showing WeChat transfer page with the 
 [镜头运动]
 Camera：extreme close-up top-down, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：手机屏幕乱码 / 微信图标错位 / 中文字符崩坏
 ```
-
 
 ### S05-04b　CU·婷婷手机收款震惊
 **引用素材**：`[CHAR-TT]` `[EXP-SHOCK]` `[PROP-PHONE-RECEIVE]`
@@ -1201,13 +1033,9 @@ Close-up of a girl's hand with chipped black nail polish holding a slightly-crac
 [镜头运动]
 Camera：close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：倒吸一口冷气；声效：微信"到账"提示音；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸 / 手机屏幕乱码 / 微信图标错位 / 中文字符崩坏
 ```
-
 
 ### S05-04c　MS·三女转为感激
 **引用素材**：`[CHAR-TT]` `[EXP-GRATEFUL]` `[CHAR-JX]` `[EXP-GRATEFUL]` `[CHAR-XS]` `[EXP-GRATEFUL]`
@@ -1228,13 +1056,9 @@ Medium shot of the three girls slowly lifting their heads from the phone, eyes t
 [镜头运动]
 Camera：medium shot, STATIC with gentle PUSH-IN, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：哽咽短气音；人声：哽咽短气音；人声：哽咽短气音；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-05a　CU·白离脑海面板返利
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-EXCITED]` `[PROP-PANEL-REWARD]`
@@ -1255,13 +1079,9 @@ Close-up of the executive man with a barely-contained excited smile, a semi-tran
 [镜头运动]
 Camera：close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：兴奋短笑 / 倒吸气；系统音：cyan 合成 ding-up + 数字打字声 + 低频 sub-bass 一击；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：UI 文字乱码 / UI 元素崩坏 / 蓝色光晕过曝 / panel 双重叠影 / 换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S05-05b　ECU·手机银行短信
 **引用素材**：`[PROP-PHONE-BANK-SMS]`
@@ -1282,13 +1102,9 @@ Extreme close-up of the executive man's smartphone screen displaying a bank SMS 
 [镜头运动]
 Camera：extreme close-up top-down, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。 声效：手机短信提示"叮"；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：手机屏幕乱码 / 微信图标错位 / 中文字符崩坏
 ```
-
 
 ### S05-05c　CU·白离嘴角扬起
 **引用素材**：`[CHAR-BL-FORMAL]` `[EXP-SMIRK]` `[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` 背影
@@ -1309,13 +1125,9 @@ Close-up of the executive man's face, subtle satisfied smirk at mouth corner, ey
 [镜头运动]
 Camera：close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ---
 
@@ -1340,13 +1152,9 @@ Top-down medium close-up of the three girls squatting together outside the conve
 [镜头运动]
 Camera：medium close-up top-down, STATIC, 4 seconds.
 
-[音频描述]
-环境：售货机嗡嗡 / 远处货车怠速 / 热水保温桶汽笛 / 风噪。BGM：暖色合成 pad 入。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S06-01b　CU·三头分食一双筷子
 **引用素材**：`[CHAR-TT]` `[EXP-CONTENT]` `[CHAR-JX]` `[EXP-CONTENT]` `[CHAR-XS]` `[EXP-CONTENT]` `[PROP-CHOPSTICKS]` `[PROP-INSTANT-NOODLE-BAG]`
@@ -1367,13 +1175,9 @@ Close-up of three heads leaning in around a single bag of cheap instant noodles,
 [镜头运动]
 Camera：close-up slight overhead, STATIC, 4 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：满足轻叹；人声：满足轻叹；人声：满足轻叹；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S06-01c　MS·收拾垃圾扔垃圾桶
 **引用素材**：`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[PROP-TRASH]` `[SCN-REST-AREA-EXT-NIGHT]`
@@ -1394,13 +1198,9 @@ The three girls tying a small white plastic bag of trash and dropping it into a 
 [镜头运动]
 Camera：medium shot, STATIC, 3 seconds.
 
-[音频描述]
-环境：售货机嗡嗡 / 远处货车怠速 / 热水保温桶汽笛 / 风噪。BGM：暖色合成 pad 入。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S06-02a　MS·婷婷递南京梦都
 **引用素材**：`[CHAR-TT]` `[EXP-FRIENDLY]` `[PROP-CIGARETTE-NJ]` `[SCN-BUS-INT-NIGHT]`
@@ -1421,13 +1221,9 @@ Back in the coach at night with warm amber overhead reading lights, the red-hair
 [镜头运动]
 Camera：medium shot side angle, STATIC, 3 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸 / 烟支变形 / 烟头双火 / 香烟品牌错字
 ```
-
 
 ### S06-02b　MCU·白离掏雨花石回敬
 **引用素材**：`[CHAR-BL-CASUAL]` `[PROP-CIGARETTE-YHS]` `[SCN-BUS-INT-NIGHT]`
@@ -1448,13 +1244,9 @@ The same executive man now with his trench coat removed, wearing his dark-charco
 [镜头运动]
 Camera：medium close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸 / 烟支变形 / 烟头双火 / 香烟品牌错字
 ```
-
 
 ### S06-02c　CU·三女眼亮
 **引用素材**：`[CHAR-TT]` `[EXP-WOW]` `[CHAR-JX]` `[EXP-WOW]` `[CHAR-XS]` `[EXP-WOW]`
@@ -1475,13 +1267,9 @@ Close-up of the three girls' faces packed in frame, eyes widening simultaneously
 [镜头运动]
 Camera：close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。 人声：三女齐声"哇——"人声：三女齐声"哇——"人声：三女齐声"哇——"
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S06-03　MS·三女抽烟满足
 **引用素材**：`[CHAR-TT]` `[EXP-CONTENT]` `[CHAR-JX]` `[EXP-CONTENT]` `[CHAR-XS]` `[EXP-CONTENT]` `[PROP-CIGARETTE-YHS]` `[FX-SMOKE]` `[SCN-BUS-INT-NIGHT]`
@@ -1502,13 +1290,9 @@ Medium shot of the three girls each holding a lit "雨花石" cigarette, each ta
 [镜头运动]
 Camera：medium shot, slow PUSH-IN, 4 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。 人声：满足轻叹；人声：满足轻叹；人声：满足轻叹；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸 / 烟支变形 / 烟头双火 / 香烟品牌错字
 ```
-
 
 ---
 
@@ -1533,13 +1317,9 @@ A greasy overweight 40-year-old Chinese man with thick gold chain necklace, big 
 [镜头运动]
 Camera：medium shot from coach back-row perspective, STATIC, 4 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。 人声：胖子嗤笑 + 嗦牙；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S07-01b　ECU·白离冷眼
 **引用素材**：`[CHAR-BL-CASUAL]` `[EXP-COLD-KILL]`
@@ -1560,13 +1340,9 @@ Extreme close-up of the executive man's eyes, ice-cold killing intent, narrow ga
 [镜头运动]
 Camera：extreme close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S07-02a　MCU·婷婷暴起骂人
 **引用素材**：`[CHAR-TT]` `[EXP-FURIOUS]` `[CHAR-FATTY]` `[SCN-BUS-INT-NIGHT]`
@@ -1587,13 +1363,9 @@ The red-haired girl springing up to her feet, finger jabbing forward toward the 
 [镜头运动]
 Camera：medium close-up, fast PUSH-IN, 3 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。 人声：婷婷暴怒指骂（高响度）；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S07-02b　MCU·小双跟团
 **引用素材**：`[CHAR-XS]` `[EXP-FOLLOWUP]`
@@ -1614,13 +1386,9 @@ The yellow-haired girl trying to look fierce alongside the red-haired girl, brow
 [镜头运动]
 Camera：medium close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S07-02c　MCU·佳欣冷脸收腿
 **引用素材**：`[CHAR-JX]` `[EXP-ICY]`
@@ -1641,13 +1409,9 @@ The purple-haired girl coldly pulling her crossed leg back down off the seat, na
 [镜头运动]
 Camera：medium close-up, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S07-03a　MS·婷婷抬小双腿欲脱鞋
 **引用素材**：`[CHAR-TT]` `[EXP-WILD]` `[CHAR-XS]` `[PROP-CARTOON-SOCKS]` `[SCN-BUS-INT-NIGHT]`
@@ -1668,13 +1432,9 @@ The red-haired girl with a wild manic grin stepping forward and lifting one of t
 [镜头运动]
 Camera：medium shot, STATIC, 3 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S07-03b　MCU·胖子骤然怂
 **引用素材**：`[CHAR-FATTY]` `[EXP-SCARED]` `[SCN-BUS-INT-NIGHT]`
@@ -1695,13 +1455,9 @@ Reverse-angle medium close-up of the fat man's face deflating into cowardly fear
 [镜头运动]
 Camera：medium close-up reverse, STATIC, 2 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。 人声：胖子尴尬干咳；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S07-03c　CU·白离复杂注视
 **引用素材**：`[CHAR-BL-CASUAL]` `[EXP-REFLECT]`
@@ -1722,13 +1478,9 @@ Close-up of the executive man's face, expression thoughtful and softened, eyes b
 [镜头运动]
 Camera：close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ---
 
@@ -1753,13 +1505,9 @@ The yellow-haired girl tilting her head with big curious eyes, soft smile, leani
 [镜头运动]
 Camera：medium close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S08-01b　CU·白离淡淡平县
 **引用素材**：`[CHAR-BL-CASUAL]` `[EXP-CALM]`
@@ -1780,13 +1528,9 @@ Close-up reverse-angle of the executive man, composed neutral expression, slight
 [镜头运动]
 Camera：close-up reverse, STATIC, 2 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S08-01c　MS·三女惊呼老乡
 **引用素材**：`[CHAR-TT]` `[EXP-EXCITED]` `[CHAR-JX]` `[EXP-EXCITED]` `[CHAR-XS]` `[EXP-EXCITED]` `[PROP-CARTOON-SOCKS]` `[SCN-BUS-INT-NIGHT]`
@@ -1807,13 +1551,9 @@ Medium shot of the three girls erupting in excited delight, the yellow-haired on
 [镜头运动]
 Camera：medium shot, STATIC, 4 seconds.
 
-[音频描述]
-环境：夜间发动机低频 / 远处轻鼾 / 打火机咔哒 / 香烟吸气声。BGM：钢琴单音 + 暖色合成器 pad。 人声：兴奋短笑 / 倒吸气；人声：兴奋短笑 / 倒吸气；人声：兴奋短笑 / 倒吸气；
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S08-01d　MCU·白离不着痕迹瞥
 **引用素材**：`[CHAR-BL-CASUAL]` `[EXP-GLANCE]`
@@ -1834,13 +1574,9 @@ Medium close-up of the executive man, eyes briefly shifting to the side then ave
 [镜头运动]
 Camera：medium close-up, STATIC, 3 seconds.
 
-[音频描述]
-环境：参考相邻场景。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S08-02a　MS·白离靠窗盘算
 **引用素材**：`[CHAR-BL-CASUAL]` `[EXP-SCHEME]` `[SCN-BUS-WINDOW-NIGHT]`
@@ -1861,13 +1597,9 @@ Medium shot of the executive man leaning against the coach window at night, scen
 [镜头运动]
 Camera：medium shot side, slow DOLLY-OUT, 5 seconds.
 
-[音频描述]
-环境：闷低频发动机 / 玻璃轻微振动 / 远处城市背景音。BGM：钢琴主题 (Cm→Eb) 进入。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：换发色 / 纹身样式漂移 / 服装漂移 / 多人融脸
 ```
-
 
 ### S08-02b　EWS·大巴夜行远去
 **引用素材**：`[SCN-HIGHWAY-NIGHT]`
@@ -1888,13 +1620,9 @@ Aerial high-angle shot of a single white long-distance coach driving away on a d
 [镜头运动]
 Camera：drone high-angle, slow upward ASCENT with slight backward TRACK, 4 seconds.
 
-[音频描述]
-环境：高速风噪 / 远处货车鸣笛 / 轮胎压伸缩缝节拍。BGM：低音 drone + 弱弦乐淡出。
-
 [负面约束]
 --no （继承 [全局视觉锁定] 全局禁止项）+ 本镜追加：画面元素漂移 / 与首帧不符
 ```
-
 
 ---
 
