@@ -97,7 +97,7 @@ Mood: bone-deep tiredness.
 **引用素材**：`[CHAR-TT]` `[CHAR-JX]` `[CHAR-XS]` `[SCN-BUS-INT-DAY]`
 ```
 [Style+Consistency prefix]
-Three loud "spicy girls" squeezing onto the coach at the front door: a 22-year-old with shoulder-length fire-red wavy hair, smoky eyes, multicolor Prajna half-sleeve tattoo on left arm, cropped black faux-leather jacket and short denim; a 21-year-old with lavender-purple straight hair, off-shoulder black crop top, ripped fishnets; a 19-year-old with honey-yellow wavy hair in pink claw clip, pastel pink puffer crop, white knee-high cartoon-bear socks. They jostle and chatter loudly.
+Three loud "spicy girls" squeezing onto the coach at the front door: a 22-year-old with shoulder-length fire-red wavy hair, smoky eyes, multicolor Prajna half-sleeve tattoo on left arm, cropped black faux-leather jacket and short denim; a 21-year-old with lavender-purple straight hair, off-shoulder black crop top, ultra-short denim shorts, sheer ultra-thin slightly translucent black stockings (lightweight 15-denier matte-sheer, no fishnet, no rips); a 19-year-old with honey-yellow wavy hair in pink claw clip, pastel pink puffer crop, white knee-high cartoon-bear socks. They jostle and chatter loudly.
 Camera: medium long shot at door perspective, quick PUSH-IN with very subtle handheld micro-shake, 3 seconds.
 Mood: chaotic invasion of energy.
 ```
