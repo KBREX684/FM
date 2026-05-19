@@ -11,7 +11,14 @@
 ```
 [全局视觉锁定]
 风格：cinematic semi-realistic Chinese urban manhua, soft cel-shading mixed with photoreal Asian skin micro-texture, subtle film grain, anamorphic-style highlight bloom, shallow depth of field, masterpiece quality.
-角色元素绑定：strictly follow [001]白离·正装(CHAR-BL-FORMAL) / [002]白离·便装(CHAR-BL-CASUAL) / [003]陈婷婷(CHAR-TT) / [004]李佳欣(CHAR-JX) / [005]林小双(CHAR-XS) / [006]司机(CHAR-DRIVER) / [007]胖子(CHAR-FATTY) — do NOT alter hair color, hairstyle, tattoo design, clothing, body type, age, facial geometry across shots.
+角色元素绑定：strictly follow ↓ — do NOT alter hair color / hairstyle / tattoo design / clothing / body type / age / facial geometry across shots.
+  · [001] 白离·正装  (CHAR-BL-FORMAL)
+  · [002] 白离·便装  (CHAR-BL-CASUAL)
+  · [003] 陈婷婷    (CHAR-TT)
+  · [004] 李佳欣    (CHAR-JX)
+  · [005] 林小双    (CHAR-XS)
+  · [006] 司机      (CHAR-DRIVER)
+  · [007] 胖子乘客   (CHAR-FATTY)
 场景参考图：strictly follow [008]–[017] SCN-* asset IDs (春运站 / 大巴日 / 大巴夜·暖灯 / 高速·黄昏 / 高速·深夜 / 服务区·外 / 便利店·内 / 服务区·外吃面 / 大巴窗·夜).
 色彩方案：Act 1–2 冷灰蓝日光 (cool grey-blue 5500K, low saturation); Act 3 系统降临 cyan-blue holographic accent; Act 5 服务区 mixed orange neon + cool fluorescent; Act 6–8 大巴夜内 warm amber 3000K reading lights + cool blue window streaks. Skin tone: natural warm Asian, no plastic sheen.
 全局光照逻辑：日间靠侧窗自然漫射光做 key light, 顶部加柔光做 fill; 夜间以单点暖色阅读灯做 key, 车窗外冷光带做 rim; 服务区室内荧光顶光 + 室外霓虹环境光; 系统 UI 自身为 cyan-blue self-emissive 光源, 投出 5–10% 反弹光到角色面部。
@@ -33,8 +40,8 @@
 
 [主体与动作]
 A wide aerial high-angle establishing shot of a North-China long-distance bus terminal plaza during Spring Festival travel rush, vast crowd of travelers dragging rolling luggage and red-blue striped woven bags, large red "春运" banner across upper frame, multiple parked white long-distance coaches, grey overcast winter sky at 11AM, slightly damp concrete pavement, breath visible in cold air.
-- 情绪转变：由 mood 推导：bleak weary holiday rush
-- 微表情序列：0–1.7s 镜头建立；1.7–3.3s 情绪推进（bleak weary holiday rush）；3.3–5.0s 情绪定型
+- 情绪转变：远观人潮 → 渺小感升起 → 沉入疲态
+- 微表情序列：0–1.7s 远观人潮；1.7–3.3s 渺小感升起；3.3–5.0s 沉入疲态
 - 动作强度 motion intensity：3/10　缓慢推/拉/移（影视常规）
 
 [环境与氛围]
@@ -60,8 +67,8 @@ Camera：high-angle establishing, slow PUSH-IN forward, 5 seconds, steady.
 
 [主体与动作]
 A 45-year-old Chinese long-distance bus driver in a dark navy quilted cotton coat and black "运" cap, weather-tanned face, holding a red plastic megaphone close to his mouth, shouting loudly at the crowd, foreground passengers passing through soft-focus, ticket gate signage in background, grey daylight.
-- 情绪转变：由 mood 推导：noisy chaotic terminal
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（noisy chaotic terminal）；2.0–3.0s 情绪定型
+- 情绪转变：一片嘈杂 → 喊声穿透 → 信息过载
+- 微表情序列：0–1.0s 一片嘈杂；1.0–2.0s 喊声穿透；2.0–3.0s 信息过载
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -87,8 +94,8 @@ Camera：medium long shot, STATIC tripod, slight foreground-passenger walk-by pa
 
 [主体与动作]
 A 26-year-old handsome Chinese man with peach-blossom almond eyes, side-parted black hair, wearing a dark-charcoal three-piece suit under a beige knee-length trench coat draped over his shoulders, polished black oxford shoes, pulling a 28-inch brushed silver aluminum spinner luggage with his left hand, his back partly to camera as he walks through a thick crowd toward a coach.
-- 情绪转变：由 mood 推导：lonely fatigue in crowd
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（lonely fatigue in crowd）；2.7–4.0s 情绪定型
+- 情绪转变：步入人海 → 自我孤立感 → 深疲沉肩
+- 微表情序列：0–1.3s 步入人海；1.3–2.7s 自我孤立感；2.7–4.0s 深疲沉肩
 - 动作强度 motion intensity：4/10　稳定跟移（步频节奏）
 
 [环境与氛围]
@@ -114,8 +121,8 @@ Camera：medium shot, smooth TRACK behind him at walking pace, slight over-shoul
 
 [主体与动作]
 Extreme low-angle close-up of four spinner wheels of a brushed silver aluminum luggage rolling across slightly damp grey concrete tiles, tiny water droplets splashing, mirror-faint reflection of wheels on wet ground.
-- 情绪转变：由 mood 推导：travel-weary detail
-- 微表情序列：0–0.7s 镜头建立；0.7–1.3s 情绪推进（travel-weary detail）；1.3–2.0s 情绪定型
+- 情绪转变：轮压湿地 → 水花溅起 → 细节疲态留痕
+- 微表情序列：0–0.7s 轮压湿地；0.7–1.3s 水花溅起；1.3–2.0s 细节疲态留痕
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -141,8 +148,8 @@ Camera：ground-level close-up, STATIC, slight forward motion of wheels, 2 secon
 
 [主体与动作]
 The same 26-year-old executive man steps onto the metal step of a white Chinese long-distance coach with license plate "沪 A·B8868" and route card "魔都→运市", trench coat over shoulders, luggage in hand, pausing for a beat to glance up at the grey overcast sky, breath fogging in cold air.
-- 情绪转变：由 mood 推导：resigned departure
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（resigned departure）；2.7–4.0s 情绪定型
+- 情绪转变：抬头望天 → 一口白雾 → 无声认命
+- 微表情序列：0–1.3s 抬头望天；1.3–2.7s 一口白雾；2.7–4.0s 无声认命
 - 动作强度 motion intensity：3/10　缓慢推/拉/移（影视常规）
 
 [环境与氛围]
@@ -172,8 +179,8 @@ Camera：medium long shot from front-side, slow DOLLY-IN, 4 seconds.
 
 [主体与动作]
 Interior of a Chinese long-distance coach in daytime, double rows of dark-burgundy velvet seats with cream headrest covers, most seats occupied by various Chinese passengers, the rear three-seat row at center frame empty and lit by a soft side-window beam.
-- 情绪转变：由 mood 推导：anticipation of a long ride
-- 微表情序列：0–1.7s 镜头建立；1.7–3.3s 情绪推进（anticipation of a long ride）；3.3–5.0s 情绪定型
+- 情绪转变：入座放空 → 思绪起伏 → 预备闭目
+- 微表情序列：0–1.7s 入座放空；1.7–3.3s 思绪起伏；3.3–5.0s 预备闭目
 - 动作强度 motion intensity：3/10　缓慢推/拉/移（影视常规）
 
 [环境与氛围]
@@ -199,8 +206,8 @@ Camera：medium long shot from front of aisle, slow DOLLY-IN toward the back row
 
 [主体与动作]
 The same 26-year-old executive man lifts a silver luggage onto the overhead aluminum rack, then settles into the leftmost window seat of the back row, smoothing his trench coat, eyes lowering.
-- 情绪转变：由 mood 推导：relief tinged with weariness
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（relief tinged with weariness）；2.0–3.0s 情绪定型
+- 情绪转变：落座放下行李 → 轻舒一气 → 疲意压回
+- 微表情序列：0–1.0s 落座放下行李；1.0–2.0s 轻舒一气；2.0–3.0s 疲意压回
 - 动作强度 motion intensity：4/10　稳定跟移（步频节奏）
 
 [环境与氛围]
@@ -253,8 +260,8 @@ Camera：close-up, side 45°, STATIC, 3 seconds.
 
 [主体与动作]
 Three loud "spicy girls" squeezing onto the coach at the front door: a 22-year-old with shoulder-length fire-red wavy hair, smoky eyes, multicolor Prajna half-sleeve tattoo on left arm, cropped black faux-leather jacket and short denim; a 21-year-old with lavender-purple straight hair, off-shoulder black crop top, ultra-short denim shorts, sheer ultra-thin slightly translucent black stockings (lightweight 15-denier matte-sheer, no fishnet, no rips); a 19-year-old with honey-yellow wavy hair in pink claw clip, pastel pink puffer crop, white knee-high cartoon-bear socks. They jostle and chatter loudly.
-- 情绪转变：由 mood 推导：chaotic invasion of energy
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（chaotic invasion of energy）；2.0–3.0s 情绪定型
+- 情绪转变：宁静 → 闯入感骤起 → 嘈杂淹没
+- 微表情序列：0–1.0s 宁静；1.0–2.0s 闯入感骤起；2.0–3.0s 嘈杂淹没
 - 动作强度 motion intensity：7/10　手持微抖（纪实临场感）
 
 [环境与氛围]
@@ -307,8 +314,8 @@ Camera：close-up, STATIC, 2 seconds.
 
 [主体与动作]
 The three spicy girls walking down the aisle of the coach, the yellow-haired girl in the lead pointing toward the empty back row with an excited expression, the red-haired one swaggering behind, the purple-haired one rolling eyes.
-- 情绪转变：由 mood 推导：incoming trouble
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（incoming trouble）；2.7–4.0s 情绪定型
+- 情绪转变：余光察觉 → 闯入感升高 → 心头一沉
+- 微表情序列：0–1.3s 余光察觉；1.3–2.7s 闯入感升高；2.7–4.0s 心头一沉
 - 动作强度 motion intensity：5/10　中速推进（强调聚焦）
 
 [环境与氛围]
@@ -334,8 +341,8 @@ Camera：medium shot tracking PAN with slight PUSH-IN from rear of coach, 4 seco
 
 [主体与动作]
 First-person POV from the executive man's seat at the back row: the three spicy girls walking straight toward camera, getting closer, slightly low angle, soft daytime side-window light.
-- 情绪转变：由 mood 推导：dread of contact
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（dread of contact）；2.0–3.0s 情绪定型
+- 情绪转变：面无表情 → 警觉抬眼 → 抗拒收紧
+- 微表情序列：0–1.0s 面无表情；1.0–2.0s 警觉抬眼；2.0–3.0s 抗拒收紧
 - 动作强度 motion intensity：2/10　微动（呼吸级微抖）
 
 [环境与氛围]
@@ -361,8 +368,8 @@ Camera：POV medium shot, STATIC with subtle natural breathing micro-shake, 3 se
 
 [主体与动作]
 The back row of the coach now packed: from left to right - the executive man pressed against the window, the yellow-haired soft-faced 19-year-old plopping down right next to him, then the purple-haired 21-year-old, then the red-haired 22-year-old with tattooed arm, all jostling for space, seats creaking.
-- 情绪转变：由 mood 推导：forced intimacy of strangers
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（forced intimacy of strangers）；2.7–4.0s 情绪定型
+- 情绪转变：互不相识 → 挤压贴近 → 各自尴尬定格
+- 微表情序列：0–1.3s 互不相识；1.3–2.7s 挤压贴近；2.7–4.0s 各自尴尬定格
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -388,8 +395,8 @@ Camera：medium shot front-on, STATIC, 4 seconds.
 
 [主体与动作]
 Close-up TILT-DOWN of the gap between two seated passengers: a man's charcoal-suit trouser leg and a young girl's bare thigh in light denim shorts pressed lightly side by side from the squeeze, no skin exposed beyond shorts hemline, tasteful framing, focus on the fabric contrast.
-- 情绪转变：由 mood 推导：discomfort from forced proximity
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（discomfort from forced proximity）；2.0–3.0s 情绪定型
+- 情绪转变：克制平静 → 异样触感 → 身体缩离
+- 微表情序列：0–1.0s 克制平静；1.0–2.0s 异样触感；2.0–3.0s 身体缩离
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -446,8 +453,8 @@ Camera：medium shot, STATIC, 4 seconds.
 
 [主体与动作]
 Aerial side-tracking shot of a single white Chinese long-distance coach driving on an empty expressway at dusk, sky gradient deep blue to faint orange, wet asphalt reflecting sky, distant fields and pylons.
-- 情绪转变：由 mood 推导：solitary travel
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（solitary travel）；2.0–3.0s 情绪定型
+- 情绪转变：车身横移 → 旷野滑过 → 孤旅之感
+- 微表情序列：0–1.0s 车身横移；1.0–2.0s 旷野滑过；2.0–3.0s 孤旅之感
 - 动作强度 motion intensity：5/10　航拍跟移（大景气势）
 
 [环境与氛围]
@@ -554,8 +561,8 @@ Camera：extreme close-up, STATIC, 1.5 seconds.
 
 [主体与动作]
 Close-up low-angle top-down of a 550ml clear mineral water bottle with blue-white "纯净水" label, water level about 80%, cap on, resting on a charcoal suit trouser leg next to a man's hand.
-- 情绪转变：由 mood 推导：small object holding decision
-- 微表情序列：0–0.7s 镜头建立；0.7–1.3s 情绪推进（small object holding decision）；1.3–2.0s 情绪定型
+- 情绪转变：目光下落瓶身 → 内心犹豫 → 决定攥紧
+- 微表情序列：0–0.7s 目光下落瓶身；0.7–1.3s 内心犹豫；1.3–2.0s 决定攥紧
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -662,8 +669,8 @@ Camera：close-up side, STATIC, 3 seconds.
 
 [主体与动作]
 Close-up of the same mineral water bottle, water level now reduced to about 30%, a faint pale-pink glossy lip print smudge visible around the bottle opening, condensation droplets on surface, bottle being handed back into a man's hand entering frame.
-- 情绪转变：由 mood 推导：lingering trace
-- 微表情序列：0–0.7s 镜头建立；0.7–1.3s 情绪推进（lingering trace）；1.3–2.0s 情绪定型
+- 情绪转变：物件递回 → 唇印映入 → 余韵停顿
+- 微表情序列：0–0.7s 物件递回；0.7–1.3s 唇印映入；1.3–2.0s 余韵停顿
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -801,8 +808,8 @@ Camera：medium shot front-on, STATIC, 4 seconds.
 
 [主体与动作]
 Close-up of the executive man's hand reaching forward, his index finger passing straight through the semi-transparent cyan-blue holographic panel without resistance, faint cyan glow on his fingertip.
-- 情绪转变：由 mood 推导：testing the impossible
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（testing the impossible）；2.0–3.0s 情绪定型
+- 情绪转变：伸手试探 → 指穿面板 → 错愕缩回
+- 微表情序列：0–1.0s 伸手试探；1.0–2.0s 指穿面板；2.0–3.0s 错愕缩回
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -828,8 +835,8 @@ Camera：close-up side, STATIC, 3 seconds.
 
 [主体与动作]
 Reverse-angle medium close-up of the three spicy girls and nearby passengers in the coach, all chatting or scrolling phones, none of them noticing or reacting to anything special, neutral daytime light.
-- 情绪转变：由 mood 推导：invisible only to him
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（invisible only to him）；2.0–3.0s 情绪定型
+- 情绪转变：环顾确认 → 他人无反应 → 暗自惊觉独享
+- 微表情序列：0–1.0s 环顾确认；1.0–2.0s 他人无反应；2.0–3.0s 暗自惊觉独享
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -855,8 +862,8 @@ Camera：medium close-up reverse angle, STATIC, 3 seconds.
 
 [主体与动作]
 Close-up of a semi-transparent cyan-blue holographic UI panel hovering against a dark blurred background, sharp Chinese sci-fi typography listing "功能一：女神雷达" and "功能二：投资返利" and "倾心值：0 路人 / 60 爱慕 / 80 热恋 / 100 至死不渝", glowing edges, particle dust.
-- 情绪转变：由 mood 推导：rule revelation
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（rule revelation）；2.7–4.0s 情绪定型
+- 情绪转变：面板浮现 → 文字逐行点亮 → 规则锁定脑中
+- 微表情序列：0–1.3s 面板浮现；1.3–2.7s 文字逐行点亮；2.7–4.0s 规则锁定脑中
 - 动作强度 motion intensity：2/10　微动（呼吸级微抖）
 
 [环境与氛围]
@@ -882,8 +889,8 @@ Camera：close-up, STATIC with very slight ZOOM-IN, 4 seconds.
 
 [主体与动作]
 First-person POV from the executive man: gaze sweeping across the three spicy girls in the back row, small cyan-blue holographic name tags popping up above each girl's head in sequence: "陈婷婷 倾心值 0 路人", "李佳欣 倾心值 0 路人", "林小双 倾心值 +10 略有好感"; scanner-like cyan grid sweep visual effect.
-- 情绪转变：由 mood 推导：god-mode unlock
-- 微表情序列：0–1.7s 镜头建立；1.7–3.3s 情绪推进（god-mode unlock）；3.3–5.0s 情绪定型
+- 情绪转变：错愕浏览 → 信息洪流灌顶 → 嘴角悄起的贪意
+- 微表情序列：0–1.7s 错愕浏览；1.7–3.3s 信息洪流灌顶；3.3–5.0s 嘴角悄起的贪意
 - 动作强度 motion intensity：4/10　稳定跟移（步频节奏）
 
 [环境与氛围]
@@ -940,8 +947,8 @@ Camera：extreme close-up, STATIC, 2 seconds.
 
 [主体与动作]
 A wide long shot of a Chinese highway service area at night, large orange-red neon sign "XX 服务区" glowing on the building, white long-distance coach parked in foreground, wet asphalt reflecting neon, scattered travelers, faint mist.
-- 情绪转变：由 mood 推导：pit-stop in the long night
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（pit-stop in the long night）；2.7–4.0s 情绪定型
+- 情绪转变：驶入服务区 → 灯火扑面 → 短暂喘息
+- 微表情序列：0–1.3s 驶入服务区；1.3–2.7s 灯火扑面；2.7–4.0s 短暂喘息
 - 动作强度 motion intensity：3/10　缓慢推/拉/移（影视常规）
 
 [环境与氛围]
@@ -967,8 +974,8 @@ Camera：long shot, slow DOLLY-IN toward the building, 4 seconds.
 
 [主体与动作]
 The executive man walking out of the automatic glass doors of a brightly-lit convenience store, holding a red "康师傅 红烧牛肉面" instant noodle cup in one hand and an unopened 550ml mineral water bottle in the other, trench coat still on shoulders.
-- 情绪转变：由 mood 推导：brief comfort of food
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（brief comfort of food）；2.0–3.0s 情绪定型
+- 情绪转变：紧绷未松 → 食物入手暖意 → 短暂松弛
+- 微表情序列：0–1.0s 紧绷未松；1.0–2.0s 食物入手暖意；2.0–3.0s 短暂松弛
 - 动作强度 motion intensity：4/10　稳定跟移（步频节奏）
 
 [环境与氛围]
@@ -994,8 +1001,8 @@ Camera：medium shot, smooth TRACK in front of him, 3 seconds.
 
 [主体与动作]
 Inside the convenience store at a small standing eating counter, the executive man tearing open the foil lid of the red instant noodle cup, steam rising into his face, bright cool fluorescent light overhead.
-- 情绪转变：由 mood 推导：simple warmth
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（simple warmth）；2.0–3.0s 情绪定型
+- 情绪转变：撕开盖膜 → 热气扑面 → 嘴角微松
+- 微表情序列：0–1.0s 撕开盖膜；1.0–2.0s 热气扑面；2.0–3.0s 嘴角微松
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1102,8 +1109,8 @@ Camera：medium close-up reverse, STATIC, 3 seconds.
 
 [主体与动作]
 The three girls huddled in a small circle, heads close together, whispering and gesturing, looking around to see if anyone is watching.
-- 情绪转变：由 mood 推导：secretive deliberation
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（secretive deliberation）；2.7–4.0s 情绪定型
+- 情绪转变：迅速凑头 → 低声商议 → 拿定主意
+- 微表情序列：0–1.3s 迅速凑头；1.3–2.7s 低声商议；2.7–4.0s 拿定主意
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1156,8 +1163,8 @@ Camera：close-up, STATIC, 2 seconds.
 
 [主体与动作]
 Extreme close-up of the smartphone screen showing WeChat transfer page with the amount "￥10.00" in large green numerals, a confirm button highlighted, a male fingertip pressing down.
-- 情绪转变：由 mood 推导：decisive small bet
-- 微表情序列：0–0.7s 镜头建立；0.7–1.3s 情绪推进（decisive small bet）；1.3–2.0s 情绪定型
+- 情绪转变：稍作迟疑 → 点击落定 → 等待结果
+- 微表情序列：0–0.7s 稍作迟疑；0.7–1.3s 点击落定；1.3–2.0s 等待结果
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1237,8 +1244,8 @@ Camera：medium shot, STATIC with gentle PUSH-IN, 3 seconds.
 
 [主体与动作]
 Close-up of the executive man with a barely-contained excited smile, a semi-transparent cyan-blue holographic reward panel overlaying part of the frame: "投资目标：陈婷婷 / 情绪波动：感激涕零 / 触发 10 倍暴击返利！/ 获得返利：￥100", with a golden burst icon.
-- 情绪转变：由 EXP-EXCITED 推导（参考素材表）
-- 微表情序列：0–3.0s thrilling validation
+- 情绪转变：克制蓄势 → 内火点燃 → 隐忍上扬
+- 微表情序列：0–1.0s 克制蓄势；1.0–2.0s 内火点燃；2.0–3.0s 隐忍上扬
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1264,8 +1271,8 @@ Camera：close-up, STATIC, 3 seconds.
 
 [主体与动作]
 Extreme close-up of the executive man's smartphone screen displaying a bank SMS banner: "【XX 银行】您尾号 8868 的储蓄卡账户收入 100.00 元，当前余额 300,100.00 元。"
-- 情绪转变：由 mood 推导：it's real
-- 微表情序列：0–0.7s 镜头建立；0.7–1.3s 情绪推进（it's real）；1.3–2.0s 情绪定型
+- 情绪转变：将信将疑 → 数字撞入眼 → 真实感冲顶
+- 微表情序列：0–0.7s 将信将疑；0.7–1.3s 数字撞入眼；1.3–2.0s 真实感冲顶
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1322,8 +1329,8 @@ Camera：close-up, STATIC, 3 seconds.
 
 [主体与动作]
 Top-down medium close-up of the three girls squatting together outside the convenience store at night, hot water being poured from a kettle into a flat bag-style cheap instant noodle packaging held open by the red-haired girl's hands, steam rising, fingers gingerly avoiding the heat.
-- 情绪转变：由 mood 推导：street-level resourcefulness
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（street-level resourcefulness）；2.7–4.0s 情绪定型
+- 情绪转变：蹲下围拢 → 倒水入袋 → 满足互看
+- 微表情序列：0–1.3s 蹲下围拢；1.3–2.7s 倒水入袋；2.7–4.0s 满足互看
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1376,8 +1383,8 @@ Camera：close-up slight overhead, STATIC, 4 seconds.
 
 [主体与动作]
 The three girls tying a small white plastic bag of trash and dropping it into a green public trash bin, brushing their hands clean.
-- 情绪转变：由 mood 推导：unexpected manners
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（unexpected manners）；2.0–3.0s 情绪定型
+- 情绪转变：随手收拢垃圾 → 起身投入桶 → 拍手撇清
+- 微表情序列：0–1.0s 随手收拢垃圾；1.0–2.0s 起身投入桶；2.0–3.0s 拍手撇清
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1430,8 +1437,8 @@ Camera：medium shot side angle, STATIC, 3 seconds.
 
 [主体与动作]
 The same executive man now with his trench coat removed, wearing his dark-charcoal vest over white shirt with sleeves rolled to forearm, tie loosened, shaking his head with a faint smile, taking out his own soft-pack of dark-green "雨花石" cigarettes, pinching one between his lips, and handing the pack toward the girls.
-- 情绪转变：由 mood 推导：quiet generosity
-- 微表情序列：0–1.0s 镜头建立；1.0–2.0s 情绪推进（quiet generosity）；2.0–3.0s 情绪定型
+- 情绪转变：微微一笑 → 自掏好烟 → 不动声色递出
+- 微表情序列：0–1.0s 微微一笑；1.0–2.0s 自掏好烟；2.0–3.0s 不动声色递出
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1789,8 +1796,8 @@ Camera：close-up reverse, STATIC, 2 seconds.
 
 [主体与动作]
 Medium shot of the three girls erupting in excited delight, the yellow-haired one slipping off her white sneakers and pulling her legs up onto the seat in a curled-up pose revealing the cartoon strawberry-bear print on her knee-high socks, the other two bouncing in their seats.
-- 情绪转变：由 EXP-EXCITED 推导（参考素材表）
-- 微表情序列：0–4.0s hometown miracle
+- 情绪转变：克制蓄势 → 内火点燃 → 隐忍上扬
+- 微表情序列：0–1.3s 克制蓄势；1.3–2.7s 内火点燃；2.7–4.0s 隐忍上扬
 - 动作强度 motion intensity：1/10　极静（纯静帧）
 
 [环境与氛围]
@@ -1870,8 +1877,8 @@ Camera：medium shot side, slow DOLLY-OUT, 5 seconds.
 
 [主体与动作]
 Aerial high-angle shot of a single white long-distance coach driving away on a dark Chinese expressway at night, two long red tail-light streaks trailing behind, scattered orange sodium street lamps, deep blue-black sky, faint distant city glow on horizon.
-- 情绪转变：由 mood 推导：journey continues
-- 微表情序列：0–1.3s 镜头建立；1.3–2.7s 情绪推进（journey continues）；2.7–4.0s 情绪定型
+- 情绪转变：车灯远去 → 夜路延展 → 未完续航
+- 微表情序列：0–1.3s 车灯远去；1.3–2.7s 夜路延展；2.7–4.0s 未完续航
 - 动作强度 motion intensity：3/10　缓慢航拍（俯瞰节奏）
 
 [环境与氛围]
